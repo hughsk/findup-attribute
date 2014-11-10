@@ -1,0 +1,39 @@
+{
+  "name": "findup-attribute",
+  "version": "1.0.0",
+  "description": "Traverse up the DOM until finding and returning an element with the expected attribute.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "browserify test.js | smokestack | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "domify": "^1.3.1",
+    "smokestack": "^2.0.0",
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/findup-attribute.git"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "element",
+    "traverse",
+    "match",
+    "attribute"
+  ],
+  "homepage": "https://github.com/hughsk/findup-attribute",
+  "bugs": {
+    "url": "https://github.com/hughsk/findup-attribute/issues"
+  }
+}
